@@ -1,0 +1,43 @@
+{
+  "name": "hotred-theme",
+  "displayName": "HotRed-Theme",
+  "description": "The Ruby Red theme is a visual burst of energy with vibrant shades of red, creating a stimulating atmosphere for your coding environments in Visual Studio Code. This theme is designed to deliver a dynamic and engaging coding experience, highlighting key elements with deep red tones and complementing them with subtle nuances for comfortable readability. Comments appear in a muted shade of gray, while keywords and variables stand out in intense red, providing a modern and distinctive aesthetic. If you seek a coding environment that inspires passion and focus, the Ruby Red theme is the perfect choice for you.",
+  "version": "0.0.1",
+  "publisher": "paulomarquesdev",
+  "author": {
+    "name": "PAULO MARQUES",
+    "email": "paulomarquesdev@gmail.com",
+    "url": "https://paulomarquesdev.vercel.app/"
+  },
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Red Theme",
+    "Customize"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "HotRed Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/HotRed Theme-color-theme.json"
+      }
+    ]
+  },
+  "galleryBanner": {
+    "color": "#FF0000",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": ""
+}
